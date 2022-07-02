@@ -1,3 +1,4 @@
+//Karl Shane Pakilit
 
 public class WeekendSubsciber extends NewsPaperSubscriber
 {
