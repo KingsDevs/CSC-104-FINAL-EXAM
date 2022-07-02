@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public abstract class NewsPaperSubscriber 
 {
     private String streetAdd;
@@ -19,6 +21,12 @@ public abstract class NewsPaperSubscriber
     }
     
     public abstract void setSubscriptionRate();
+
+    public static void displayAll(ArrayList subscribers)
+    {
+        for(int i = 0; i < subscribers.size(); i++)
+            System.out.println(subscribers.get(i).toString());
+    }
     
     public static Boolean isSubscriberEqual(NewsPaperSubscriber sub1, NewsPaperSubscriber sub2)
     {

@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class SevenDaySubscriber extends NewsPaperSubscriber 
 {
@@ -18,5 +19,7 @@ public class SevenDaySubscriber extends NewsPaperSubscriber
     {
         return "Seven Day Subscriber | Rate: " + super.getSubscriptionRate() + " | Street Address: " + super.getStreetAdd();
     }
+
+  
     
 }
