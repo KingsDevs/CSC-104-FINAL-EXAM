@@ -1,3 +1,4 @@
+//Karl Shane Pakilit
 import java.util.ArrayList;
 
 public class SevenDaySubscriber extends NewsPaperSubscriber 
